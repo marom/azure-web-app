@@ -1,13 +1,13 @@
 azure:
   activedirectory:
     b2c:
-      tenant: ${your-tenant-name}
+      tenant: marekhome.onmicrosoft.com
       oidc-enabled: true
-      client-id: ${your-client-id}
-      client-secret: ${your-client-secret}
-      reply-url: ${your-reply-url-from-aad} # should be absolute url.
-      logout-success-url: ${you-logout-success-url}
+      client-id: 3108a42b-74ee-4f1d-b900-59d6e7141f32
+      client-secret: QR1|:-iX{(g1X.\;2G}7k:%>
+      reply-url: http://localhost:8080/home # should be absolute url.
+      logout-success-url: http://localhost:8080/
       user-flows:
-        sign-up-or-sign-in: ${your-sign-up-or-in-user-flow}
+        sign-up-or-sign-in: B2C_1_test_user_flow
         profile-edit: ${your-profile-edit-user-flow}     # optional
         password-reset: ${your-password-reset-user-flow} # optional
